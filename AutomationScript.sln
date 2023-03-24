@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33414.496
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Internal", "Internal", "{EA123527-252F-4DE0-816D-16451F4B2593}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Scripts", "Scripts", "{84C14659-36B0-4C29-AF3E-5AFA1260CD09}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dlls", "Dlls", "{E77DB0C1-C47D-4CC2-95E2-1998F681B25A}"
+	ProjectSection(SolutionItems) = preProject
+		Dlls\ProcessAutomation.dll = Dlls\ProcessAutomation.dll
+		Dlls\ProcessAutomation.xml = Dlls\ProcessAutomation.xml
+		Dlls\readme.txt = Dlls\readme.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documentation", "Documentation", "{116EA3B5-E907-44C7-BB24-FDEA03C170F6}"
+	ProjectSection(SolutionItems) = preProject
+		Documentation\readme.txt = Documentation\readme.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Code Analysis", "Code Analysis", "{4116D69B-04E6-428A-BBA5-CC7E9814BC89}"
+	ProjectSection(SolutionItems) = preProject
+		Internal\Code Analysis\qaction-debug.ruleset = Internal\Code Analysis\qaction-debug.ruleset
+		Internal\Code Analysis\qaction-release.ruleset = Internal\Code Analysis\qaction-release.ruleset
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Empower.PA.PLS.GenerateInformationEvent", "Empower.PA.PLS.GenerateInformationEvent", "{8969F48D-DF63-4B9F-B87F-46D67F2D38E1}"
+	ProjectSection(SolutionItems) = preProject
+		Empower.PA.PLS.GenerateInformationEvent.xml = Empower.PA.PLS.GenerateInformationEvent.xml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Actions", "Actions", "{0F1F9C7A-8D8B-4AA8-982A-394D3DA6B638}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Empower.PA.PLS.GenerateInformationEvent_1", "Empower.PA.PLS.GenerateInformationEvent_1\Empower.PA.PLS.GenerateInformationEvent_1.csproj", "{B988C7C8-DC01-45F4-9E24-6D49FEB9B40E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B988C7C8-DC01-45F4-9E24-6D49FEB9B40E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B988C7C8-DC01-45F4-9E24-6D49FEB9B40E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B988C7C8-DC01-45F4-9E24-6D49FEB9B40E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B988C7C8-DC01-45F4-9E24-6D49FEB9B40E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4116D69B-04E6-428A-BBA5-CC7E9814BC89} = {EA123527-252F-4DE0-816D-16451F4B2593}
+		{8969F48D-DF63-4B9F-B87F-46D67F2D38E1} = {84C14659-36B0-4C29-AF3E-5AFA1260CD09}
+		{0F1F9C7A-8D8B-4AA8-982A-394D3DA6B638} = {8969F48D-DF63-4B9F-B87F-46D67F2D38E1}
+		{B988C7C8-DC01-45F4-9E24-6D49FEB9B40E} = {0F1F9C7A-8D8B-4AA8-982A-394D3DA6B638}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D97FA416-369C-42C4-8E16-F73187AB7CF2}
+	EndGlobalSection
+EndGlobal
